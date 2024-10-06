@@ -28,15 +28,6 @@ getSeedSprite('Diamond Lock')
   .catch(error => console.error('Error:', error));
 ```
 
-### As a CLI
-
-You can also use this as an interactive command-line tool:
-
-1. Clone this repository
-2. Run `npm install` in the project directory
-3. Run `node index.js`
-4. Follow the prompts to fetch sprite URLs
-
 ## API
 
 ### `getSpriteItem(itemName: string): Promise<string | undefined>`

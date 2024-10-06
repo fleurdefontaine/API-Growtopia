@@ -2,30 +2,6 @@
 
 This is a simple Node.js module that fetches sprite image URLs from the Growtopia Wiki.
 
-## Installation
-
-```bash
-npm install growtopia-sprite-api
-```
-
-## Usage
-
-### As a module
-
-```javascript
-const { getSpriteItem, getSeedSprite } = require('growtopia-sprite-api');
-
-// Fetch a regular item sprite
-getSpriteItem('Diamond Lock')
-  .then(url => console.log('Item sprite URL:', url))
-  .catch(error => console.error('Error:', error));
-
-// Fetch a seed sprite
-getSeedSprite('Diamond Lock Seed')
-  .then(url => console.log('Seed sprite URL:', url))
-  .catch(error => console.error('Error:', error));
-```
-
 ### As a CLI
 
 You can also use this as an interactive command-line tool:

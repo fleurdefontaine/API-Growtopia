@@ -2,6 +2,8 @@
 
 This is a simple Node.js module that fetches sprite image URLs from the Growtopia Wiki.
 
+[![NPM Version](https://img.shields.io/npm/v/growtopia-sprite.svg)](https://www.npmjs.com/package/growtopia-sprite)
+
 ## Installation
 
 ```bash
